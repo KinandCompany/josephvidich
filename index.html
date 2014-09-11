@@ -30,6 +30,12 @@
 	<script type="text/javascript">
 		$('#container').textfill({
 			debug: 'true',
+			success: function() {
+			            console.log("yay!")
+			        },
+	        fail: function() {
+	            alert("boo!")
+	        }
 
 		});
 	</script>
