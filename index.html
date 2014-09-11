@@ -36,10 +36,13 @@
 	<script type="text/javascript">
 
 	$(document).ready(function() {
+		
+		$(window).resize(function() {
 
-		$('#container').textfill({
-			maxFontPixels: 300,
-	        });
+			$('#container').textfill({
+				maxFontPixels: 300,
+		        });
+			}).resize();
 
 		});
 
